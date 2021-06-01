@@ -11,7 +11,7 @@
 
 set $mod Mod1
 #change background
-exec --no-startup-id xwallpaper --maximize ~/Pictures/Wallpaper/StarryNightCampervan.png
+exec --no-startup-id xwallpaper --maximize ~/.config/i3/SoaringEagle.png
 
 #Start transparency
 exec --no-startup-id xcompmgr
@@ -19,7 +19,7 @@ exec --no-startup-id xcompmgr
 #exit i3 without nagbar
 bindsym $mod+F1 exec killall i3
 #Calc
-bindsym $mod+C exec --no-startup-id gnome-calculator
+bindsym $mod+C exec --no-startup-id gnome-calculator 
 for_window [window_role="gnome-calculator"] floating enable
 for_window [window_role="mpv"] floating enable
 
