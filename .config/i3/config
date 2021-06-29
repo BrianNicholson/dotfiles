@@ -34,7 +34,7 @@ bindsym $mod+F5 exec shutdown now
 bindsym $mod+shif+i exec --no-starup-id betterlockscreen -t "Don't Touch My PC!" -tf %r -s -l
 
 #Lock only
-bindsym $mod+i exec betterlockscreen -t "Don't Touch My PC!" -tf %r -l -s
+bindsym $mod+i exec --no-startup-id betterlockscreen -t "Don't Touch My PC!" -tf %r -l 
 
 #Reboot
 bindsym $mod+F8 exec reboot
