@@ -11,7 +11,7 @@
 
 set $mod Mod1
 #change background
-exec --no-startup-id xwallpaper --maximize ~/.config/i3/SoaringEagle.png
+exec --no-startup-id xwallpaper --maximize ~/.config/i3/CherryTreeTemple.jpeg
 
 #Start transparency
 exec --no-startup-id xcompmgr
@@ -31,7 +31,7 @@ bindsym $mod+Shift+S exec --no-startup-id xpad new
 bindsym $mod+F5 exec shutdown now
 
 #Suspend and lock
-bindsym $mod+shif+i exec --no-starup-id betterlockscreen -t "Don't Touch My PC!" -tf %r -s -l
+bindsym $mod+shif+i exec --no-starup-id betterlockscreen -t "Don't Touch My PC!" -tf %r -l -s 
 
 #Lock only
 bindsym $mod+i exec --no-startup-id betterlockscreen -t "Don't Touch My PC!" -tf %r -l 
@@ -46,7 +46,7 @@ smart_gaps on
 smart_borders on
 
 #Radius
-border_radius 3
+border_radius 5
 
 #toggle gaps
 bindsym $mod+G gaps outer all toggle 5 gaps inner all toggle 5
@@ -123,8 +123,8 @@ bindsym $mod+B exec --no-startup-id librewolf
 #run ytfzf in dmenu
 bindsym $mod+F2 exec --no-startup-id ytfzf -D
 
-#start ranger (File Browser)
-bindsym $mod+Shift+F exec --no-startup-id alacritty -e ranger
+#start lf (File Browser)
+bindsym $mod+Shift+F exec --no-startup-id alacritty -e lf 
 
 # kill focused window
 bindsym $mod+Shift+q kill
